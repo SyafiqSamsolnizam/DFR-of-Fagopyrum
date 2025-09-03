@@ -1,5 +1,5 @@
 # DFR-of-Fagopyrum
-This repository contains the scripts used in the study of "Expansion of DFR Gene Family in Fagopyrum".
+This repository contains the scripts data used in the study of "Expansion of DFR Gene Family in Fagopyrum".
 
 ##  TPM Boxplot Script
 
@@ -134,7 +134,7 @@ python3 pairwise_heatmap.py \
     --out results/
 ```
 
-📊 Output
+### Output
 
 The script generates the following files inside the chosen output folder:  
 
