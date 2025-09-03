@@ -28,14 +28,14 @@ It is useful for visualizing expression patterns across samples and tissues, wit
 Gene Sample1 Sample2 Sample3
 FeDFR1 12.3 8.1 5.6
 FeDFR2 30.2 25.7 19.4
-´´´
+```
 
 **Gene query file** (optional, one gene ID per line):
 
 ```
 FeDFR1
 FeDFR2
-´´´
+```
 
 
 **Tissue mapping file** (optional, tab-delimited):
@@ -43,7 +43,7 @@ FeDFR2
 ```
 Leaf Sample1,Sample2
 Root Sample3,Sample4
-´´´
+```
 
 
 ###  Usage
@@ -58,3 +58,4 @@ python3 boxplot_script.py \
   --outlier_size 4 \
   --box_width 0.5 \
   -o expression_boxplot.png
+```
