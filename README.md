@@ -3,7 +3,7 @@ This repository contains the scripts used in the study of "Expansion of DFR Gene
 
 ##  TPM Boxplot Script
 
-This script generates **boxplots of gene expression (TPM values)** from a transcript quantification table.  
+This script generates **boxplots of gene expression (TPM values)** from a transcript quantification table by Kallisto.  
 It is useful for visualizing expression patterns across samples and tissues, with options for customization.  
 
 ###  Features
@@ -24,21 +24,26 @@ It is useful for visualizing expression patterns across samples and tissues, wit
 ###  Input File Formats
 **TPM table** (TSV):
 
+```
 Gene Sample1 Sample2 Sample3
 FeDFR1 12.3 8.1 5.6
 FeDFR2 30.2 25.7 19.4
-
+´´´
 
 **Gene query file** (optional, one gene ID per line):
 
+```
 FeDFR1
 FeDFR2
+´´´
 
 
 **Tissue mapping file** (optional, tab-delimited):
 
+```
 Leaf Sample1,Sample2
-Root Sample3
+Root Sample3,Sample4
+´´´
 
 
 ###  Usage
