@@ -1,5 +1,5 @@
 # DFR-of-Fagopyrum
-This repository contains the scripts data used in the study of "Expansion of DFR Gene Family in Fagopyrum".
+This repository contains the scripts and data used in the study of "Expansion of DFR Gene Family in Fagopyrum".
 
 ##  TPM Boxplot Script
 
