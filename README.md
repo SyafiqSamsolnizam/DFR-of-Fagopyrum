@@ -1,2 +1,2 @@
 # DFR-of-Fagopyrum
-This repository contains the scripts used in the study of the expansion of DFR gene family in Fagopyrum
+This repository contains the scripts used in the study of "Expansion of DFR Gene Family in Fagopyrum"
